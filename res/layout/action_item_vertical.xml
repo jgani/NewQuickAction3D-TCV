@@ -16,9 +16,11 @@
 		android:id="@+id/tv_title"
 		android:layout_width="fill_parent" 
 		android:layout_height="fill_parent" 
-		android:gravity="center_vertical"
+		android:gravity="center_horizontal|center_vertical"
 		android:paddingLeft="5dip"
 		android:paddingRight="10dip"
+    android:minWidth="64dp"
+    android:minHeight="32dp"
 		android:text="Chart"
 		android:textColor="#fff"/>
 									         
